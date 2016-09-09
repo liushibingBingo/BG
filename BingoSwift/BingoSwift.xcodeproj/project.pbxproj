@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09CF507A7E748DC1F611C364 /* libPods-BingoSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B55DD220FF287E64347C887 /* libPods-BingoSwift.a */; };
+		83A6AE9D1D824C77000271E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A6AE9C1D824C77000271E9 /* AppDelegate.swift */; };
+		83A6AE9F1D824C77000271E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A6AE9E1D824C77000271E9 /* ViewController.swift */; };
+		83A6AEA21D824C77000271E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A6AEA01D824C77000271E9 /* Main.storyboard */; };
+		83A6AEA41D824C77000271E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A6AEA31D824C77000271E9 /* Assets.xcassets */; };
+		83A6AEA71D824C77000271E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A6AEA51D824C77000271E9 /* LaunchScreen.storyboard */; };
+		83A6AEB21D824C78000271E9 /* BingoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A6AEB11D824C78000271E9 /* BingoSwiftTests.swift */; };
+		83A6AEBD1D824C78000271E9 /* BingoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A6AEBC1D824C78000271E9 /* BingoSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A6AEAE1D824C78000271E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A6AE911D824C77000271E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A6AE981D824C77000271E9;
+			remoteInfo = BingoSwift;
+		};
+		83A6AEB91D824C78000271E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A6AE911D824C77000271E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A6AE981D824C77000271E9;
+			remoteInfo = BingoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B55DD220FF287E64347C887 /* libPods-BingoSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BingoSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2680E8A0723B174C872D1136 /* Pods-BingoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingoSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BingoSwift/Pods-BingoSwift.release.xcconfig"; sourceTree = "<group>"; };
+		83A6AE991D824C77000271E9 /* BingoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A6AE9C1D824C77000271E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
+		83A6AE9E1D824C77000271E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
+		83A6AEA11D824C77000271E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83A6AEA31D824C77000271E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A6AEA61D824C77000271E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A6AEA81D824C77000271E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A6AEAD1D824C78000271E9 /* BingoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A6AEB11D824C78000271E9 /* BingoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoSwiftTests.swift; sourceTree = "<group>"; };
+		83A6AEB31D824C78000271E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A6AEB81D824C78000271E9 /* BingoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A6AEBC1D824C78000271E9 /* BingoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoSwiftUITests.swift; sourceTree = "<group>"; };
+		83A6AEBE1D824C78000271E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13AA586B841F67A2A99C781 /* Pods-BingoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingoSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BingoSwift/Pods-BingoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A6AE961D824C77000271E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CF507A7E748DC1F611C364 /* libPods-BingoSwift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6AEAA1D824C78000271E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6AEB51D824C78000271E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		595C0C8EA780017C2A563DA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B55DD220FF287E64347C887 /* libPods-BingoSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A6AE901D824C77000271E9 = {
+			isa = PBXGroup;
+			children = (
+				83A6AE9B1D824C77000271E9 /* BingoSwift */,
+				83A6AEB01D824C78000271E9 /* BingoSwiftTests */,
+				83A6AEBB1D824C78000271E9 /* BingoSwiftUITests */,
+				83A6AE9A1D824C77000271E9 /* Products */,
+				F8E97A278001546F4746858D /* Pods */,
+				595C0C8EA780017C2A563DA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83A6AE9A1D824C77000271E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AE991D824C77000271E9 /* BingoSwift.app */,
+				83A6AEAD1D824C78000271E9 /* BingoSwiftTests.xctest */,
+				83A6AEB81D824C78000271E9 /* BingoSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A6AE9B1D824C77000271E9 /* BingoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AECA1D825C88000271E9 /* Classes */,
+				83A6AEA01D824C77000271E9 /* Main.storyboard */,
+				83A6AEA31D824C77000271E9 /* Assets.xcassets */,
+				83A6AEA51D824C77000271E9 /* LaunchScreen.storyboard */,
+				83A6AEA81D824C77000271E9 /* Info.plist */,
+			);
+			path = BingoSwift;
+			sourceTree = "<group>";
+		};
+		83A6AEB01D824C78000271E9 /* BingoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AEB11D824C78000271E9 /* BingoSwiftTests.swift */,
+				83A6AEB31D824C78000271E9 /* Info.plist */,
+			);
+			path = BingoSwiftTests;
+			sourceTree = "<group>";
+		};
+		83A6AEBB1D824C78000271E9 /* BingoSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AEBC1D824C78000271E9 /* BingoSwiftUITests.swift */,
+				83A6AEBE1D824C78000271E9 /* Info.plist */,
+			);
+			path = BingoSwiftUITests;
+			sourceTree = "<group>";
+		};
+		83A6AECA1D825C88000271E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AECB1D825C88000271E9 /* Home */,
+				83A6AECF1D825C88000271E9 /* Main */,
+				83A6AED51D825C88000271E9 /* NewFeature */,
+				83A6AED91D825C88000271E9 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		83A6AECB1D825C88000271E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AECC1D825C88000271E9 /* Controller */,
+				83A6AECD1D825C88000271E9 /* Model */,
+				83A6AECE1D825C88000271E9 /* view */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83A6AECC1D825C88000271E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		83A6AECD1D825C88000271E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83A6AECE1D825C88000271E9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		83A6AECF1D825C88000271E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AED01D825C88000271E9 /* Category */,
+				83A6AED11D825C88000271E9 /* Controller */,
+				83A6AED21D825C88000271E9 /* Model */,
+				83A6AED31D825C88000271E9 /* Tool */,
+				83A6AED41D825C88000271E9 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		83A6AED01D825C88000271E9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		83A6AED11D825C88000271E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		83A6AED21D825C88000271E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83A6AED31D825C88000271E9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		83A6AED41D825C88000271E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83A6AED51D825C88000271E9 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AED61D825C88000271E9 /* Controller */,
+				83A6AED71D825C88000271E9 /* Model */,
+				83A6AED81D825C88000271E9 /* view */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		83A6AED61D825C88000271E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		83A6AED71D825C88000271E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83A6AED81D825C88000271E9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		83A6AED91D825C88000271E9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				83A6AE9C1D824C77000271E9 /* AppDelegate.swift */,
+				83A6AE9E1D824C77000271E9 /* ViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F8E97A278001546F4746858D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F13AA586B841F67A2A99C781 /* Pods-BingoSwift.debug.xcconfig */,
+				2680E8A0723B174C872D1136 /* Pods-BingoSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A6AE981D824C77000271E9 /* BingoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A6AEC11D824C78000271E9 /* Build configuration list for PBXNativeTarget "BingoSwift" */;
+			buildPhases = (
+				1E28405D4C71BAE6FABB7936 /* Check Pods Manifest.lock */,
+				83A6AE951D824C77000271E9 /* Sources */,
+				83A6AE961D824C77000271E9 /* Frameworks */,
+				83A6AE971D824C77000271E9 /* Resources */,
+				1C5739082A49F88C5F77898C /* Embed Pods Frameworks */,
+				BEEA51C024BFC51B22F1C64B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingoSwift;
+			productName = BingoSwift;
+			productReference = 83A6AE991D824C77000271E9 /* BingoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A6AEAC1D824C78000271E9 /* BingoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A6AEC41D824C78000271E9 /* Build configuration list for PBXNativeTarget "BingoSwiftTests" */;
+			buildPhases = (
+				83A6AEA91D824C78000271E9 /* Sources */,
+				83A6AEAA1D824C78000271E9 /* Frameworks */,
+				83A6AEAB1D824C78000271E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A6AEAF1D824C78000271E9 /* PBXTargetDependency */,
+			);
+			name = BingoSwiftTests;
+			productName = BingoSwiftTests;
+			productReference = 83A6AEAD1D824C78000271E9 /* BingoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83A6AEB71D824C78000271E9 /* BingoSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A6AEC71D824C78000271E9 /* Build configuration list for PBXNativeTarget "BingoSwiftUITests" */;
+			buildPhases = (
+				83A6AEB41D824C78000271E9 /* Sources */,
+				83A6AEB51D824C78000271E9 /* Frameworks */,
+				83A6AEB61D824C78000271E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A6AEBA1D824C78000271E9 /* PBXTargetDependency */,
+			);
+			name = BingoSwiftUITests;
+			productName = BingoSwiftUITests;
+			productReference = 83A6AEB81D824C78000271E9 /* BingoSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A6AE911D824C77000271E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "刘世兵";
+				TargetAttributes = {
+					83A6AE981D824C77000271E9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					83A6AEAC1D824C78000271E9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 83A6AE981D824C77000271E9;
+					};
+					83A6AEB71D824C78000271E9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 83A6AE981D824C77000271E9;
+					};
+				};
+			};
+			buildConfigurationList = 83A6AE941D824C77000271E9 /* Build configuration list for PBXProject "BingoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A6AE901D824C77000271E9;
+			productRefGroup = 83A6AE9A1D824C77000271E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A6AE981D824C77000271E9 /* BingoSwift */,
+				83A6AEAC1D824C78000271E9 /* BingoSwiftTests */,
+				83A6AEB71D824C78000271E9 /* BingoSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A6AE971D824C77000271E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6AEA71D824C77000271E9 /* LaunchScreen.storyboard in Resources */,
+				83A6AEA41D824C77000271E9 /* Assets.xcassets in Resources */,
+				83A6AEA21D824C77000271E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6AEAB1D824C78000271E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6AEB61D824C78000271E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C5739082A49F88C5F77898C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingoSwift/Pods-BingoSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E28405D4C71BAE6FABB7936 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEEA51C024BFC51B22F1C64B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingoSwift/Pods-BingoSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A6AE951D824C77000271E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6AE9F1D824C77000271E9 /* ViewController.swift in Sources */,
+				83A6AE9D1D824C77000271E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6AEA91D824C78000271E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6AEB21D824C78000271E9 /* BingoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6AEB41D824C78000271E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6AEBD1D824C78000271E9 /* BingoSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A6AEAF1D824C78000271E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A6AE981D824C77000271E9 /* BingoSwift */;
+			targetProxy = 83A6AEAE1D824C78000271E9 /* PBXContainerItemProxy */;
+		};
+		83A6AEBA1D824C78000271E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A6AE981D824C77000271E9 /* BingoSwift */;
+			targetProxy = 83A6AEB91D824C78000271E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83A6AEA01D824C77000271E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A6AEA11D824C77000271E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83A6AEA51D824C77000271E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A6AEA61D824C77000271E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A6AEBF1D824C78000271E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83A6AEC01D824C78000271E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A6AEC21D824C78000271E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13AA586B841F67A2A99C781 /* Pods-BingoSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BingoSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iexin.BingoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83A6AEC31D824C78000271E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2680E8A0723B174C872D1136 /* Pods-BingoSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BingoSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iexin.BingoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83A6AEC51D824C78000271E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BingoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iexin.BingoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoSwift.app/BingoSwift";
+			};
+			name = Debug;
+		};
+		83A6AEC61D824C78000271E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BingoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iexin.BingoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoSwift.app/BingoSwift";
+			};
+			name = Release;
+		};
+		83A6AEC81D824C78000271E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BingoSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iexin.BingoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BingoSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83A6AEC91D824C78000271E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BingoSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iexin.BingoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BingoSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A6AE941D824C77000271E9 /* Build configuration list for PBXProject "BingoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A6AEBF1D824C78000271E9 /* Debug */,
+				83A6AEC01D824C78000271E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A6AEC11D824C78000271E9 /* Build configuration list for PBXNativeTarget "BingoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A6AEC21D824C78000271E9 /* Debug */,
+				83A6AEC31D824C78000271E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A6AEC41D824C78000271E9 /* Build configuration list for PBXNativeTarget "BingoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A6AEC51D824C78000271E9 /* Debug */,
+				83A6AEC61D824C78000271E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A6AEC71D824C78000271E9 /* Build configuration list for PBXNativeTarget "BingoSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A6AEC81D824C78000271E9 /* Debug */,
+				83A6AEC91D824C78000271E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A6AE911D824C77000271E9 /* Project object */;
+}
